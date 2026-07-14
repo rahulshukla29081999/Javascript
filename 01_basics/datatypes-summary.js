@@ -1,4 +1,6 @@
-// Primitive DataTypes-
+ //DataTypes--
+ 
+ // Primitive DataTypes-
 
 // 7 types - String, Number, Boolean, Null, Undefined, Symbol, BigInt
 
@@ -40,3 +42,36 @@ console.log(typeof myFunction)
 
 //Javascript is Dynamically Typed languague
 
+
+
+//******************************************************************************* */
+
+//Memory
+
+// Stack( Premitive)
+// Heap (Non-Premitive)
+
+
+
+
+//Stack
+let myYoutubename = "rahulshukladotcom"
+let anotherName = myYoutubename
+anotherName = "shuklarahuldotcome"
+console.log(myYoutubename)
+console.log(anotherName)
+
+
+
+
+//Heap -- Reference 
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "rahul@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
